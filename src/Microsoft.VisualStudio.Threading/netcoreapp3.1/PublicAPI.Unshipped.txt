@@ -1,4 +1,12 @@
 Microsoft.VisualStudio.Threading.AsyncReaderWriterLock.AsyncReaderWriterLock(Microsoft.VisualStudio.Threading.JoinableTaskContext? joinableTaskContext, bool captureDiagnostics = false) -> void
 Microsoft.VisualStudio.Threading.AsyncReaderWriterResourceLock<TMoniker, TResource>.AsyncReaderWriterResourceLock(Microsoft.VisualStudio.Threading.JoinableTaskContext? joinableTaskContext, bool captureDiagnostics) -> void
 Microsoft.VisualStudio.Threading.JoinableTaskContext.IsMainThreadMaybeBlocked() -> bool
+Microsoft.VisualStudio.Threading.JoinableTaskFactory.NoThrowMainThreadAwaitable
+Microsoft.VisualStudio.Threading.JoinableTaskFactory.NoThrowMainThreadAwaitable.GetAwaiter() -> Microsoft.VisualStudio.Threading.JoinableTaskFactory.NoThrowMainThreadAwaiter
+Microsoft.VisualStudio.Threading.JoinableTaskFactory.NoThrowMainThreadAwaiter
+Microsoft.VisualStudio.Threading.JoinableTaskFactory.NoThrowMainThreadAwaiter.GetResult() -> bool
+Microsoft.VisualStudio.Threading.JoinableTaskFactory.NoThrowMainThreadAwaiter.IsCompleted.get -> bool
+Microsoft.VisualStudio.Threading.JoinableTaskFactory.NoThrowMainThreadAwaiter.OnCompleted(System.Action! continuation) -> void
+Microsoft.VisualStudio.Threading.JoinableTaskFactory.NoThrowMainThreadAwaiter.UnsafeOnCompleted(System.Action! continuation) -> void
+static Microsoft.VisualStudio.Threading.TplExtensions.NoThrowAwaitable(this Microsoft.VisualStudio.Threading.JoinableTaskFactory.MainThreadAwaitable awaitable) -> Microsoft.VisualStudio.Threading.JoinableTaskFactory.NoThrowMainThreadAwaitable
 virtual Microsoft.VisualStudio.Threading.AsyncReaderWriterLock.DeadlockCheckTimeout.get -> System.TimeSpan
